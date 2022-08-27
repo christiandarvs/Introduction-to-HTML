@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    font-family: monospace;
+    background-color: lightsteelblue;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 3%;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+figure{
+    display: inline-block;
+    margin: 0%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navlinks{
+        list-style-type: none;
+        text-align: center;
+    }
+    .navlinks li{
+        display: inline-block;
+        color: white;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+       
+    }
+
+    .navlinks li a{
+        transition: all 0.3s ease 0s;
+        
+    }
+
+    .navlinks li a:hover{
+        color: lightgray;
+    }
+    
+    li{
+        font-size: 1.5rem;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    figcaption{
+        font-size: 1.2rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }

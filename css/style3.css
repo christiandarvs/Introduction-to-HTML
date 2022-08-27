@@ -1,0 +1,61 @@
+body{
+text-align: center;
+font-family: monospace;
+background-color: lightsteelblue;
+}
+
+h1{
+font-size: 3rem;
+margin-top: 3%;
+
+}
+
+.navlinks{
+list-style-type: none;
+text-align: center;
+}
+
+.navlinks li{
+display: inline-block;
+color: white;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 15px;
+}
+
+.navlinks li a{
+transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+color: lightgray;
+}
+
+li{
+font-size: 1.5rem;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+}
+
+a:hover{
+color: pink;
+}
+
+.container{
+height: 300px;
+width: 450px;
+background-color: aliceblue;
+margin: 0 auto;
+padding: 0;
+border-radius: 25px;
+margin-top: 3rem;
+}
+
+.container a{
+line-height: 2.5;
+font-size: 1.5rem;
+display: block;
+}
